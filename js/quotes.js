@@ -1,19 +1,19 @@
 const quotes = [
     {
-        quote: "He not busy being born is busy dying.",
-        author: "Bob Dylan"
+        quote: "The people who are crazy enough to think they can change the world are the ones who do.",
+        author: "Steve Jobs"
     },
     {
-        quote: "The supreme irony of life is that hardly anyone gets out of it alive.",
-        author: "Robert Heinlein"
+        quote: "Let's go invent tomorrow rather than worrying about what happened yesterday.",
+        author: "Steve Jobs"
     },
     {
-        quote: "Dost thou love life? Then do not squander time, for that is the stuff life is made of.",
-        author: "Benjamin Franklin"
+        quote: "If you want it, you can fly, you just have to trust you a lot.",
+        author: "Steve Jobs"
     },
     {
-        quote: "Life is a long lesson in humility.",
-        author: "ames M. Barrie"
+        quote: "Done is better than perfect.",
+        author: "Mark Zuckerberg"
     },
     {
         quote: "The tragedy of life is what dies in the hearts and souls of people while they live.",
@@ -24,27 +24,26 @@ const quotes = [
         author: "Samuel Butler"
     },
     {
-        quote: "By nature, men are nearly alike; by practice, they get to be wide apart.",
-        author: "Confucius"
+        quote: "The only thing worse than starting something and failing is not starting something.",
+        author: "Seth Godin"
     },
     {
         quote: "Security is mostly a superstition. It does not exist in nature.... Life is either a daring adventure or nothing.",
         author: "Helen Keller"
     },
     {
-        quote: "Life is a moderately good play with a badly written third act.",
-        author: "Truman Capote"
+        quote: "Nothing is a waste of time if you use the experience wisely.",
+        author: "Auguste René Rodin"
     },
     {
-        quote: "Thanks to the Interstate Highway System, it is now possible to travel from coast to coast without seeing anything.",
-        author: "Charles Kuralt"
+        quote: "Try not to become a man of success but rather try to become a man of value.",
+        author: "Albert Einstein"
     },
 ];
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];  //0~9 사이의 숫자
-// console.log(quotes[Math.floor(Math.random() * quotes.length)]);
 
 quote.innerText = todaysQuote.quote;
-author.innerText = todaysQuote.author;
+author.innerText = ` / ${todaysQuote.author}`;

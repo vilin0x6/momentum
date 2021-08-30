@@ -23,7 +23,7 @@ function paintToDo(newToDo) {
     const span = document.createElement("span");
     span.innerText = newToDo.text;
     const button = document.createElement("button");
-    button.innerText = "❌";
+    button.innerText = "✖";
     button.addEventListener("click", deleteToDo);
     li.appendChild(span);   //span을 li의 child로 집어 넣음
     li.appendChild(button);

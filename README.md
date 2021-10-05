@@ -4,15 +4,6 @@ Momentum
 
 -----------------------------------------
 
-Table of Contents
------------------------------------------
-
-[➤ About The Project](#📝-about-the-project)
-
-[➤ Demo Page](#💻-demo-page)
-
-[➤ Next Version Preview](#💭-next-version-preview)
-
 
 📝 About The Project
 -----------------------------------------

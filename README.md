@@ -5,7 +5,6 @@ Momentum
 <br/>
 <img src="./img/momentum-img.jpg" width="700px" title="px(픽셀) 크기 설정" alt="Momentum"></img>
 <br/>
------------------------------------------
 
 
 📝 About The Project

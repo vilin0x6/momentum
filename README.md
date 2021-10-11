@@ -3,7 +3,7 @@ Momentum
 새 탭을 열 때 나오는 개인 페이지 Momentum입니다. To-Do 리스트부터 날씨와 한 줄 명언까지 감상해보세요!
 
 <br/>
-<img src="./img/momentum-img.jpg" width="700px" title="px(픽셀) 크기 설정" alt="Momentum"></img>
+<img src="./img/momentum-img.jpg" width="700px" title="Momentum" alt="Momentum"></img>
 <br/>
 
 
